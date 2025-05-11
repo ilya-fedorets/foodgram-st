@@ -1236,14 +1236,14 @@ components:
             $ref: '#/components/schemas/NotFound'
 
     RecipeNotFound:
-      description: 'Рецепт не найден'
+      description: 'Рецепт не найден'
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/NotFound'
 
     UserNotFound:
-      description: 'Пользователь не найден'
+      description: 'Пользователь не найден'
       content:
         application/json:
           schema:
@@ -1252,7 +1252,6 @@ components:
 
   securitySchemes:
     Token:
-      description: 'Авторизация по токену. <br>
-      Все запросы от имени пользователя должны выполняться с заголовком "Authorization: Token TOKENVALUE"'
+      description: 'Авторизация по токену. <br> Все запросы от имени пользователя должны выполняться с заголовком "Authorization: Token TOKENVALUE"'
       type: http
       scheme: token
