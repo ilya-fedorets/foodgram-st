@@ -39,7 +39,7 @@
 ### 1. Клонирование репозитория
 
 ```sh
-git clone https://github.com/MaximFLUNN/foodgram-st.git
+git clone https://github.com/ilya-fedorets/foodgram-st
 cd foodgram-st
 ```
 
@@ -98,6 +98,6 @@ docker-compose exec backend python manage.py createsuperuser
 
 ## Контакты
 
-Автор: [Максим](https://github.com/MaximFLUNN)
+Автор: [Илья](https://github.com/ilya-fedorets)
 
 ---
